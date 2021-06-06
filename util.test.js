@@ -1,3 +1,5 @@
+jest.mock('./http');
+
 const { loadTitle } = require('./util');
 
 test('print uppercase text', async () => {
